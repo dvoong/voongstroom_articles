@@ -1,0 +1,59 @@
+.centeredImage {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.cover-image {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333333;
+    height: 100px;
+}
+
+.navbar-logo {
+    color: white;
+    float: left;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.navbar-item {
+    float: right;
+}
+
+.navbar-items {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.navbar-items-container {
+    float: right;
+    line-height: 100px;
+}
+
+.navbar-link {
+    color: white;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    background: #111;
+}
