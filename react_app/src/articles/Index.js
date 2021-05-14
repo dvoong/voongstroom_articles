@@ -59,6 +59,11 @@ function Index({path}) {
           <h2>Web development</h2>
           <ul>
             <li>
+              <Link to={`${path}/web-development/how-to-simple-microservices-app-with-kubernetes-flask-and-react`}>
+                How to: Simple microservices app with Kubernetes, Flask and React
+              </Link>
+            </li>
+            <li>
               <Link to={`${path}/web-development/how-to-favicons`}>
                 How to: Favicons
               </Link>

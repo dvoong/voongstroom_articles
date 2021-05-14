@@ -19,6 +19,7 @@ import CssImportant from  "./web_development/CssImportant";
 import DeployingADjangoApplicationWithDocker from "./web_development/DeployingADjangoApplicationWithDocker";
 import StructuringYourDjangoProject from "./web_development/StructuringYourDjangoProject";
 import HowToCreatingADomainForYourWebsite from "./web_development/HowToCreatingADomainForYourWebsite";
+import HowToSimpleMicroservicesAppWithKubernetesFlaskandReact from "./web_development/HowToSimpleMicroservicesAppWithKubernetesFlaskandReact";
 
 
 function Articles() {
@@ -84,6 +85,9 @@ function Articles() {
             </Route>
             <Route path={`${match.path}/web-development/how-to-creating-a-domain-for-your-website`}>
               <HowToCreatingADomainForYourWebsite />
+            </Route>
+            <Route path={`${match.path}/web-development/how-to-simple-microservices-app-with-kubernetes-flask-and-react`}>
+              <HowToSimpleMicroservicesAppWithKubernetesFlaskandReact />
             </Route>
             
             <Route path="/">

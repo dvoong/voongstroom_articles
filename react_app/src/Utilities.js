@@ -1,5 +1,5 @@
 import { MathComponent } from "mathjax-react";
-import { CopyBlock } from "react-code-blocks";
+import { CodeBlock, CopyBlock } from "react-code-blocks";
 
 
 function InlineEquation({tex}) {
@@ -10,8 +10,11 @@ function Equation({tex}) {
     return <MathComponent tex={tex} />;
 }
 
-function Code({text, language='python'}) {
-    return <CopyBlock text={text} theme='dracula' language={language} />;
+function Code({copy=true, text, language='python', showLineNumbers=false}) {
+    if(copy === false)
+	return <CodeBlock text={text} theme='dracula' language={language} showLineNumbers={showLineNumbers} />;
+    else
+	return <CopyBlock text={text} theme='dracula' language={language} showLineNumbers={showLineNumbers} />;
 }
 
 export {Code, Equation, InlineEquation};
