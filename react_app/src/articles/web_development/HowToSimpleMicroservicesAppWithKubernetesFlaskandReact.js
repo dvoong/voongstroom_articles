@@ -29,6 +29,32 @@ function HowToCommentingWithDjangoComments() {
 
           <div>
             <h2>Project structure</h2>
+            <Code language='shell' text={`backend
+  .dockerignore
+  backend
+    __init__.py
+  deployment.yaml
+  Dockerfile
+  service.yaml
+  venv
+frontend
+  .dockerignore
+  deployment.yaml
+  Dockerfile
+  node_modules
+  package.json
+  package-lock.json
+  public
+  README.md
+  service.yaml
+  src
+nginx
+  default.conf.template
+  deployment.yaml
+  service.yaml
+postgres
+  deployment.yaml
+  service.yaml`}/>
           </div>
 
           <div>

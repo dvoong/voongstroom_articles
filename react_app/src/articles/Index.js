@@ -64,6 +64,11 @@ function Index({path}) {
               </Link>
             </li>
             <li>
+              <Link to={`${path}/web-development/flask-api-template`}>
+                Flask API Template
+              </Link>
+            </li>
+            <li>
               <Link to={`${path}/web-development/how-to-favicons`}>
                 How to: Favicons
               </Link>

@@ -20,6 +20,7 @@ import DeployingADjangoApplicationWithDocker from "./web_development/DeployingAD
 import StructuringYourDjangoProject from "./web_development/StructuringYourDjangoProject";
 import HowToCreatingADomainForYourWebsite from "./web_development/HowToCreatingADomainForYourWebsite";
 import HowToSimpleMicroservicesAppWithKubernetesFlaskandReact from "./web_development/HowToSimpleMicroservicesAppWithKubernetesFlaskandReact";
+import FlaskApiTemplate from "./web_development/FlaskApiTemplate"
 
 
 function Articles() {
@@ -88,6 +89,10 @@ function Articles() {
             </Route>
             <Route path={`${match.path}/web-development/how-to-simple-microservices-app-with-kubernetes-flask-and-react`}>
               <HowToSimpleMicroservicesAppWithKubernetesFlaskandReact />
+            </Route>
+
+            <Route path={`${match.path}/web-development/flask-api-template`}>
+              <FlaskApiTemplate />
             </Route>
             
             <Route path="/">
